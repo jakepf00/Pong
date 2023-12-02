@@ -1,0 +1,3 @@
+/home/jakepf00/SFML/Pong/build/CMakeFiles/Pong.dir
+/home/jakepf00/SFML/Pong/build/CMakeFiles/edit_cache.dir
+/home/jakepf00/SFML/Pong/build/CMakeFiles/rebuild_cache.dir
