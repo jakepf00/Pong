@@ -1,6 +1,6 @@
 #pragma once
 
-#include<SFML/Graphics/CircleShape.hpp>
+#include "world.h"
 #include<SFML/Graphics/RenderWindow.hpp>
 #include<SFML/System/Time.hpp>
 
@@ -17,5 +17,5 @@ private:
     const sf::Time timePerFrame  = sf::seconds(1.f/60.f);
     sf::RenderWindow window;
 
-    sf::CircleShape player;
+    World world;
 };

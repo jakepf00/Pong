@@ -3,6 +3,7 @@ project(Pong)
 set(SOURCES
     game.cpp
     main.cpp
+    world.cpp
 )
 add_executable(${PROJECT_NAME} ${SOURCES})
 target_link_libraries(${PROJECT_NAME} sfml-graphics sfml-window sfml-system)

@@ -1,8 +1,9 @@
 #include "include/game.h"
 #include<SFML/Window/Event.hpp>
 
-Game::Game()
-: window(sf::VideoMode(640, 480), "Pong", sf::Style::Close) {
+Game::Game() :
+window(sf::VideoMode(640, 480), "Pong", sf::Style::Close),
+world(window) {
     window.setKeyRepeatEnabled(false);
 }
 
@@ -28,10 +29,12 @@ void Game::processInput() {
 	}
 }
 
-void Game::update(sf::Time elapsedTime) {}
+void Game::update(sf::Time elapsedTime) {
+    world.update(elapsedTime);
+}
 
 void Game::render() {
     window.clear();
-    // Draw...
+    world.draw();
     window.display();
 }
