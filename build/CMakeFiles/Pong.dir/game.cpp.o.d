@@ -1,4 +1,4 @@
-CMakeFiles/Pong.dir/main.cpp.o: /home/jakepf00/SFML/Pong/source/main.cpp \
+CMakeFiles/Pong.dir/game.cpp.o: /home/jakepf00/SFML/Pong/source/game.cpp \
  /usr/include/stdc-predef.h \
  /home/jakepf00/SFML/Pong/source/include/game.h \
  /usr/include/SFML/Graphics/CircleShape.hpp \
@@ -202,4 +202,8 @@ CMakeFiles/Pong.dir/main.cpp.o: /home/jakepf00/SFML/Pong/source/main.cpp \
  /usr/include/c++/11/bits/locale_conv.h \
  /usr/include/c++/11/bits/unique_ptr.h /usr/include/SFML/System/Utf.inl \
  /usr/include/c++/11/iterator /usr/include/c++/11/bits/stream_iterator.h \
- /usr/include/SFML/System/String.inl
+ /usr/include/SFML/System/String.inl /usr/include/SFML/Window/Event.hpp \
+ /usr/include/SFML/Window/Joystick.hpp \
+ /usr/include/SFML/Window/Keyboard.hpp /usr/include/SFML/Window/Mouse.hpp \
+ /usr/include/SFML/Window/Sensor.hpp /usr/include/SFML/System/Vector3.hpp \
+ /usr/include/SFML/System/Vector3.inl

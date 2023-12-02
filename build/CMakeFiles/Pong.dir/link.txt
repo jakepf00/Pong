@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/Pong.dir/main.cpp.o -o Pong  -lsfml-graphics -lsfml-window -lsfml-system 
+/usr/bin/c++ CMakeFiles/Pong.dir/game.cpp.o CMakeFiles/Pong.dir/main.cpp.o -o Pong  -lsfml-graphics -lsfml-window -lsfml-system 
